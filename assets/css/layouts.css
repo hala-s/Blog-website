@@ -1,0 +1,21 @@
+.home-page.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "hd hd hd"
+    "main main sd"
+    "ft ft ft";
+  min-height: 100vh;
+  gap: 10px;
+}
+.blog-details-page.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav"
+    "main main sd"
+    "rel rel rel"
+    "ft ft ft";
+  gap: 10px;
+}

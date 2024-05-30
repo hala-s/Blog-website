@@ -1,0 +1,87 @@
+:root {
+  /* my project main colors */
+  --primary-color: #f0e7d5;
+  --dark-primary-color: #b3a690;
+  --secondary-color: #876857;
+
+  /* typography colors */
+  --text-color: #fff6fd;
+  --dark-text-color: #876857;
+
+  /* shadow colors */
+  --shadow-color: #0000001a;
+
+  /* border colors */
+  --border-color: #e2dca9;
+}
+body {
+  font-family: "Dosis", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  margin: 0 15px;
+}
+.bold-paragraph{
+font-weight: bold;
+}
+.underline-paragraph{
+    text-decoration: underline;
+}
+.italic-paragraph{
+    font-style: italic;
+}
+button{
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    color: var(--dark-text-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+button:hover{
+    background-color: var(--dark-text-color);
+    color: var(--text-color) !important;
+
+}
+button:hover a{
+    color: var(--text-color) !important;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color) ;
+
+}
+form input{
+    margin: 1rem;
+}
+form .icon{
+    color: var(--text-color) ;
+
+}
